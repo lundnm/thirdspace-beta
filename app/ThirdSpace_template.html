@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Base Reset & Mobile Optimization */
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #2C3E50; line-height: 1.6; margin: 0; padding: 0; background-color: #F8F9FA; }
+        .wrapper { padding: 20px 10px; }
+        .container { max-width: 600px; margin: 0 auto; background-color: #FFFFFF; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        
+        /* Header */
+        .header { background-color: #FF5A5F; color: white; padding: 25px 20px; text-align: center; }
+        .header h2 { margin: 0; font-size: 24px; letter-spacing: -0.5px; }
+        
+        /* Body Content */
+        .content { padding: 30px 20px; }
+        .intro-text { font-size: 16px; margin-bottom: 25px; color: #4A5568; }
+        
+        /* Game Cards (Replaces the Table) */
+        .game-card { background-color: #F8F9FA; border-left: 4px solid #FF5A5F; border-radius: 6px; padding: 18px; margin-bottom: 20px; }
+        .game-title { font-size: 18px; font-weight: bold; margin: 0 0 10px 0; color: #1A202C; }
+        .game-meta { font-size: 14px; font-weight: 600; color: #718096; margin-bottom: 12px; display: flex; flex-wrap: wrap; gap: 15px; }
+        .meta-item { display: inline-block; margin-right: 15px; }
+        .game-hook { font-size: 15px; margin: 0 0 10px 0; color: #4A5568; font-style: italic; }
+        .game-bullets { font-size: 14px; color: #4A5568; margin: 0; padding-left: 18px; }
+        .game-bullets li { margin-bottom: 4px; }
+        
+        /* Buttons & Footer */
+        .button-group { text-align: center; margin-top: 35px; padding-top: 20px; border-top: 1px solid #EDF2F7; }
+        .btn { display: inline-block; padding: 12px 24px; background-color: #FF5A5F; color: #FFFFFF; text-decoration: none; border-radius: 6px; font-weight: bold; margin: 10px 5px; font-size: 14px; transition: background-color 0.2s;}
+        .btn-secondary { background-color: #EDF2F7; color: #4A5568; }
+        .footer { background-color: #F8F9FA; padding: 20px; text-align: center; font-size: 12px; color: #A0AEC0; border-top: 1px solid #EDF2F7; }
+        
+        /* Mobile Breakpoints */
+        @media only screen and (max-width: 480px) {
+            .btn { display: block; width: 100%; box-sizing: border-box; margin: 10px 0; }
+            .meta-item { display: block; margin-bottom: 5px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header">
+                <h2>ThirdSpace Weekend Watch 🏀🍻</h2>
+            </div>
+            
+            <div class="content">
+                {% if is_new %}
+                <p class="intro-text"><strong>Hey {{ name }}, welcome to ThirdSpace! 👋</strong><br>
+                You bring the energy; we find the spot. We scoured Ann Arbor so you don't have to — below are your personalized watch recommendations based on your teams and venue preferences.</p>
+                {% else %}
+                <p class="intro-text"><strong>Hey {{ name }}, you're back!</strong><br>
+                Your teams are playing tonight and we've already locked in the best spots. Here's what's on tap for you.</p>
+                {% endif %}
+
+                {% for game in games %}
+                <div class="game-card">
+                    <h3 class="game-title">{{ game.team_a }} vs {{ game.team_b }}</h3>
+                    <div class="game-meta">
+                        <span class="meta-item">⏰ {{ game.time }}</span>
+                        <span class="meta-item">📍 {{ game.venue }}</span>
+                    </div>
+                    <p class="game-hook">🔥 {{ game.preview.hook }}</p>
+                    {% if game.preview.bullets %}
+                    <ul class="game-bullets">
+                        {% for bullet in game.preview.bullets %}
+                        <li>{{ bullet }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+                {% endfor %}
+
+                <div class="button-group">
+                    <h4 style="margin-top: 0; color: #2C3E50;">Help us build the ultimate fan community</h4>
+                    <a href="{{ raffle_link }}" class="btn">Enter $25 Raffle</a>
+                    <a href="{{ feedback_link }}" class="btn btn-secondary">Give Beta Feedback</a>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p>You are receiving this because you are an early beta tester for ThirdSpace.<br>
+                © 2026 ThirdSpace. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

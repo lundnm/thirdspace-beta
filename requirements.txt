@@ -1,0 +1,9 @@
+langchain-openai
+langgraph
+pandas
+tavily-python
+pydantic
+playwright
+bs4
+asyncio
+python-dotenv
