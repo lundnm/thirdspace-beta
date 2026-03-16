@@ -22,13 +22,13 @@ CORRECTION_MAP = {
     "msu": "Michigan State University",
     "unc": "University of North Carolina",
     "uconn": "University of Connecticut",
-    "ucla": "University of California, Los Angeles",
+    "ucla": "University of California Los Angeles",
     "lsu": "Louisiana State University",
     "lakers": "Los Angeles Lakers",
     "knicks": "New York Knicks",
     
     # These catch the schools if their commas were stripped during the input split
-    "university of california los angeles": "University of California, Los Angeles",
+    "university of california los angeles": "University of California Los Angeles",
     "california state university fullerton": "California State University, Fullerton"
 }
 
