@@ -1,0 +1,55 @@
+Date,Time,League,Matchup,Services,DayOfWeek
+2026-03-13,19:30,NBA,"Detroit Pistons,Memphis Grizzlies","['NBA League Pass', 'Detroit SportsNet']",Friday
+2026-03-13,19:30,NBA,"Indiana Pacers,New York Knicks",['NBA League Pass'],Friday
+2026-03-13,19:30,NBA,"Toronto Raptors,Phoenix Suns",['NBA League Pass'],Friday
+2026-03-13,19:30,NBA,"Dallas Mavericks,Cleveland Cavaliers",['Prime Video'],Friday
+2026-03-13,20:00,NBA,"Houston Rockets,New Orleans Pelicans",['NBA League Pass'],Friday
+2026-03-13,22:00,NBA,"Golden State Warriors,Minnesota Timberwolves",['Prime Video'],Friday
+2026-03-13,22:00,NBA,"Portland Trail Blazers,Utah Jazz",['NBA League Pass'],Friday
+2026-03-13,22:30,NBA,"Los Angeles Clippers,Chicago Bulls",['NBA League Pass'],Friday
+2026-03-13,13:00,MCBB,"Kentucky,Florida","['Fubo Sports', 'ESPN Unlimited', 'ESPN']",Friday
+2026-03-13,13:00,MCBB,"Charlotte,UAB","['Fubo Sports', 'ESPN Unlimited', 'ESPN2']",Friday
+2026-03-13,14:00,MCBB,"Prairie View A&M,Alabama A&M","['ESPN Select', 'ESPN Unlimited']",Friday
+2026-03-13,14:00,MCBB,"St. Bonaventure,Dayton","['Fubo Sports', 'USA Network']",Friday
+2026-03-13,14:30,MCBB,"Wisconsin,Illinois",['Big Ten Network'],Friday
+2026-03-13,15:00,MCBB,"Kennesaw State,Sam Houston","['Fubo Sports', 'CBS Sports Network']",Friday
+2026-03-13,15:30,MCBB,"Tennessee,Vanderbilt","['ESPN Unlimited', 'ESPN']",Friday
+2026-03-13,15:30,MCBB,"North Texas,Tulsa","['Fubo Sports', 'ESPN Unlimited', 'ESPN2']",Friday
+2026-03-13,17:00,MCBB,"Duquesne,VCU","['Fubo Sports', 'USA Network']",Friday
+2026-03-13,17:00,MCBB,"Toledo,UMass Amherst","['Fubo Sports', 'CBS Sports Network']",Friday
+2026-03-13,17:30,MCBB,"Seton Hall,St. John's",['Fubo Sports'],Friday
+2026-03-13,18:00,MCBB,"South Carolina State,Howard","['ESPN Select', 'ESPN Unlimited']",Friday
+2026-03-13,18:30,MCBB,"Purdue,Nebraska",['Big Ten Network'],Friday
+2026-03-13,19:00,MCBB,"Miami,Virginia","['ESPN Unlimited', 'ESPN2']",Friday
+2026-03-13,19:00,MCBB,"Mississippi,Alabama","['ESPN Unlimited', 'SEC Network']",Friday
+2026-03-13,19:00,MCBB,"Iowa State,Arizona","['ESPN Unlimited', 'ESPN']",Friday
+2026-03-13,19:30,MCBB,"Akron,Kent State","['Fubo Sports', 'CBS Sports Network']",Friday
+2026-03-13,20:00,MCBB,"Delaware State,North Carolina Central","['ESPN Select', 'ESPN Unlimited']",Friday
+2026-03-13,20:30,MCBB,"Southern University,Florida A&M","['ESPN Select', 'ESPN Unlimited']",Friday
+2026-03-13,21:00,MCBB,"UT Arlington,Utah Valley","['ESPN Select', 'ESPN Unlimited']",Friday
+2026-03-13,21:00,MCBB,"CSU Northridge,UC Irvine","['ESPN Unlimited', 'ESPN U']",Friday
+2026-03-13,21:00,MCBB,"UCLA,Michigan State",['Big Ten Network'],Friday
+2026-03-13,21:30,MCBB,"Clemson,Duke","['ESPN Unlimited', 'ESPN2']",Friday
+2026-03-13,21:30,MCBB,"Oklahoma,Arkansas","['ESPN Unlimited', 'SEC Network']",Friday
+2026-03-13,21:30,MCBB,"Nevada,Utah State","['Fubo Sports', 'CBS Sports Network']",Friday
+2026-03-13,21:30,MCBB,"Kansas,Houston","['ESPN Unlimited', 'ESPN']",Friday
+2026-03-13,23:30,MCBB,"Utah Tech,California Baptist","['ESPN Select', 'ESPN Unlimited']",Friday
+2026-03-13,23:30,MCBB,"CSU Fullerton,Hawai'i","['Fubo Sports', 'ESPN Unlimited', 'ESPN2']",Friday
+2026-03-13,23:59,MCBB,"New Mexico,San Diego State","['Fubo Sports', 'CBS Sports Network']",Friday
+2026-03-13,13:00,WCBB,"Indiana State,Murray State","['ESPN Select', 'ESPN Unlimited']",Friday
+2026-03-13,14:00,WCBB,"Norfolk State,Maryland Eastern Shore","['ESPN Select', 'ESPN Unlimited']",Friday
+2026-03-13,15:00,WCBB,"Tarleton State,California Baptist","['ESPN Select', 'ESPN Unlimited']",Friday
+2026-03-13,15:00,WCBB,"Hawai'i,UC Irvine","['ESPN Select', 'ESPN Unlimited']",Friday
+2026-03-13,15:30,WCBB,"Bradley,Northern Iowa","['ESPN Select', 'ESPN Unlimited']",Friday
+2026-03-13,16:30,WCBB,"Brown,Princeton","['ESPN Select', 'ESPN Unlimited']",Friday
+2026-03-13,17:00,WCBB,"Maine,Vermont","['Fubo Sports', 'ESPN Unlimited', 'ESPN U', 'ESPN App']",Friday
+2026-03-13,17:30,WCBB,"UT Arlington,Abilene Christian","['ESPN Select', 'ESPN Unlimited']",Friday
+2026-03-13,17:30,WCBB,"Arkansas-Pine Bluff,Alabama State","['ESPN Select', 'ESPN Unlimited']",Friday
+2026-03-13,17:30,WCBB,"UC Davis,UC San Diego","['ESPN Select', 'ESPN Unlimited']",Friday
+2026-03-13,18:30,WCBB,"Liberty,Louisiana Tech","['ESPN Select', 'ESPN Unlimited']",Friday
+2026-03-13,19:00,WCBB,"Evansville,Belmont","['ESPN Select', 'ESPN Unlimited']",Friday
+2026-03-13,19:00,WCBB,"North Texas,Rice","['ESPN Select', 'ESPN Unlimited']",Friday
+2026-03-13,19:30,WCBB,"Harvard,Columbia","['ESPN Select', 'ESPN Unlimited']",Friday
+2026-03-13,21:00,WCBB,"Missouri State,Florida International","['ESPN Select', 'ESPN Unlimited']",Friday
+2026-03-13,21:30,WCBB,"Drake,Illinois State","['ESPN Select', 'ESPN Unlimited']",Friday
+2026-03-13,21:30,WCBB,"UTSA,East Carolina","['ESPN Select', 'ESPN Unlimited']",Friday

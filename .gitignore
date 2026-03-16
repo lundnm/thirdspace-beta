@@ -1,0 +1,13 @@
+# Environment variables — never commit real credentials
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Data files with personal information
+data/Raw_User_Responses.csv
+data/User_Responses_Cleaned.csv
+data/User_Feedback.csv
+data/User_Responses_With_Venues_*.csv
