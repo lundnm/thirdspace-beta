@@ -33,7 +33,7 @@ def clean_streaming_data(date):
         'ABC', 'CBS', 'NBC', 'Telemundo', 'USA Network',
         'ESPN', 'ESPN2', 'ESPN U', 'ESPNews', 'ESPN App',
         'CBS Sports Network', 'Big Ten Network', 'SEC Network', 'ACC Network',
-        'NBA TV', 'NBC Sports Network', 
+        'NBA TV', 'NBC Sports Network', 'TruTV', 'TNT', 'TBS', 'FS1', 'FS2',
         
         # National Streaming Platforms
         'Peacock', 'Prime Video', 'Paramount+', 'Fubo Sports',

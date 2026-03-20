@@ -69,7 +69,7 @@ def main():
         'CBS Sports Network', 'Big Ten Network', 'SEC Network', 'ACC Network',
         'NBA TV', 'NBC Sports Network', 
         'FanDuel Sports Network Detroit Extra',
-        'Detroit SportsNet', 'Youtube TV'
+        'Detroit SportsNet', 'Youtube TV', 'TNT', 'TBS', 'FS1', 'FS2', 'TruTV'
     ])
 
     Sport_Team_lists = [row[["Sport", "Team", "Most_Common_Venue_Feature"]].tolist() for _, row in fanbase_df.iterrows()]
