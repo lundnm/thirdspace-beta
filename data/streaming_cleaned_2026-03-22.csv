@@ -1,0 +1,38 @@
+Date,Time,League,Matchup,Services,DayOfWeek
+2026-03-22,17:00,NBA,"Denver Nuggets,Portland Trail Blazers",['NBA TV'],Sunday
+2026-03-22,18:00,NBA,"Sacramento Kings,Brooklyn Nets",['NBA League Pass'],Sunday
+2026-03-22,19:30,NBA,"New York Knicks,Washington Wizards",['NBA League Pass'],Sunday
+2026-03-22,20:00,NBA,"Boston Celtics,Minnesota Timberwolves","['Peacock', 'NBC', 'Telemundo']",Sunday
+2026-03-22,21:00,NBA,"Phoenix Suns,Toronto Raptors",['NBA League Pass'],Sunday
+2026-03-22,12:10,MCBB,"Miami,Purdue","['Paramount+', 'CBS']",Sunday
+2026-03-22,14:45,MCBB,"Kentucky,Iowa State","['Paramount+', 'CBS']",Sunday
+2026-03-22,16:30,MCBB,"Illinois State,Wake Forest","['Fubo Sports', 'ESPN Unlimited', 'ESPN2']",Sunday
+2026-03-22,17:15,MCBB,"St. John's,Kansas","['Paramount+', 'CBS']",Sunday
+2026-03-22,18:10,MCBB,"Tennessee,Virginia",['TNT'],Sunday
+2026-03-22,18:30,MCBB,"Seattle U,Auburn","['Fubo Sports', 'ESPN Unlimited', 'ESPN2']",Sunday
+2026-03-22,19:00,MCBB,"UNLV,Tulsa","['ESPN Unlimited', 'ESPN U']",Sunday
+2026-03-22,19:10,MCBB,"Iowa,Florida",['TBS'],Sunday
+2026-03-22,20:00,MCBB,"George Washington,New Mexico","['ESPN Select', 'ESPN Unlimited']",Sunday
+2026-03-22,20:30,MCBB,"Wichita State,Oklahoma State","['Fubo Sports', 'ESPN Unlimited', 'ESPN2']",Sunday
+2026-03-22,20:45,MCBB,"UCLA,UConn",['TNT'],Sunday
+2026-03-22,21:00,MCBB,"Saint Joseph's,California","['ESPN Unlimited', 'ESPN U']",Sunday
+2026-03-22,21:45,MCBB,"Texas Tech,Alabama",['TBS'],Sunday
+2026-03-22,12:00,WCBB,"Maryland,North Carolina","['Fubo Sports', 'ESPN Unlimited', 'ESPN']",Sunday
+2026-03-22,12:00,WCBB,"Miami,Wisconsin","['ESPN Select', 'ESPN Unlimited']",Sunday
+2026-03-22,13:00,WCBB,"NC State,Michigan","['ESPN Unlimited', 'ABC']",Sunday
+2026-03-22,14:00,WCBB,"Mississippi,Minnesota","['Fubo Sports', 'ESPN Unlimited', 'ESPN']",Sunday
+2026-03-22,14:00,WCBB,"Harvard,Eastern Kentucky","['ESPN Select', 'ESPN Unlimited']",Sunday
+2026-03-22,14:00,WCBB,"North Dakota State,Columbia","['ESPN Select', 'ESPN Unlimited']",Sunday
+2026-03-22,14:00,WCBB,"Army,NJIT","['ESPN Select', 'ESPN Unlimited']",Sunday
+2026-03-22,14:00,WCBB,"Illinois State,UT Rio Grande Valley","['ESPN Select', 'ESPN Unlimited']",Sunday
+2026-03-22,15:00,WCBB,"Texas Tech,LSU","['ESPN Unlimited', 'ABC']",Sunday
+2026-03-22,16:00,WCBB,"Baylor,Duke","['Fubo Sports', 'ESPN Unlimited', 'ESPN']",Sunday
+2026-03-22,17:00,WCBB,"San Diego State,McNeese","['ESPN Select', 'ESPN Unlimited']",Sunday
+2026-03-22,17:00,WCBB,"Stanford,Quinnipiac","['ESPN Select', 'ESPN Unlimited']",Sunday
+2026-03-22,17:00,WCBB,"Pepperdine,Southern Utah","['ESPN Select', 'ESPN Unlimited']",Sunday
+2026-03-22,18:00,WCBB,"Oregon,Texas","['Fubo Sports', 'ESPN Unlimited', 'ESPN']",Sunday
+2026-03-22,18:00,WCBB,"Lamar,Portland","['ESPN Select', 'ESPN Unlimited']",Sunday
+2026-03-22,18:30,WCBB,"Kansas,Rice","['ESPN Select', 'ESPN Unlimited']",Sunday
+2026-03-22,19:00,WCBB,"Kansas State,California","['ESPN Select', 'ESPN Unlimited']",Sunday
+2026-03-22,20:00,WCBB,"Michigan State,Oklahoma","['Fubo Sports', 'ESPN Unlimited', 'ESPN']",Sunday
+2026-03-22,22:00,WCBB,"Washington,TCU","['Fubo Sports', 'ESPN Unlimited', 'ESPN']",Sunday

@@ -56,10 +56,11 @@
 
                 {% for game in games %}
                 <div class="game-card">
-                    <h3 class="game-title">{{ game.team_a }} vs {{ game.team_b }}</h3>
+                    <h3 class="game-title">{{ game.team_a }} vs {{ game.team_b }} <span style="font-size: 13px; font-weight: normal; color: #718096;">({{ game.league }})</span></h3>
                     <div class="game-meta">
                         <span class="meta-item">⏰ {{ game.time }}</span>
                         <span class="meta-item">📍 {{ game.venue }}</span>
+                        {% if game.channel %}<span class="meta-item">📺 {{ game.channel }}</span>{% endif %}
                     </div>
                     <p class="game-hook">🔥 {{ game.preview.hook }}</p>
                     {% if game.preview.bullets %}

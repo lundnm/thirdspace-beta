@@ -1,0 +1,40 @@
+Date,Time,League,Matchup,Services,DayOfWeek
+2026-03-21,17:00,NBA,"Washington Wizards,Oklahoma City Thunder",['NBA League Pass'],Saturday
+2026-03-21,19:00,NBA,"Charlotte Hornets,Memphis Grizzlies",['NBA League Pass'],Saturday
+2026-03-21,19:00,NBA,"Orlando Magic,Los Angeles Lakers",['NBA TV'],Saturday
+2026-03-21,19:00,NBA,"New Orleans Pelicans,Cleveland Cavaliers",['NBA League Pass'],Saturday
+2026-03-21,20:00,NBA,"Atlanta Hawks,Golden State Warriors",['NBA League Pass'],Saturday
+2026-03-21,20:00,NBA,"Houston Rockets,Miami Heat",['NBA League Pass'],Saturday
+2026-03-21,20:00,NBA,"San Antonio Spurs,Indiana Pacers",['NBA League Pass'],Saturday
+2026-03-21,20:30,NBA,"Dallas Mavericks,Los Angeles Clippers",['NBA League Pass'],Saturday
+2026-03-21,21:30,NBA,"Utah Jazz,Philadelphia 76ers",['NBA League Pass'],Saturday
+2026-03-21,22:00,NBA,"Phoenix Suns,Milwaukee Bucks",['NBA TV'],Saturday
+2026-03-21,12:10,MCBB,"Saint Louis,Michigan","['Paramount+', 'CBS']",Saturday
+2026-03-21,14:45,MCBB,"Louisville,Michigan State","['Paramount+', 'CBS']",Saturday
+2026-03-21,17:15,MCBB,"TCU,Duke","['Paramount+', 'CBS']",Saturday
+2026-03-21,17:30,MCBB,"Christopher Newport,Emory","['ESPN Select', 'ESPN Unlimited']",Saturday
+2026-03-21,18:10,MCBB,"Texas A&M,Houston",['TNT'],Saturday
+2026-03-21,19:00,MCBB,"Dayton,UNC Wilmington","['ESPN Select', 'ESPN Unlimited']",Saturday
+2026-03-21,19:10,MCBB,"Texas,Gonzaga",['TBS'],Saturday
+2026-03-21,19:50,MCBB,"VCU,Illinois","['Paramount+', 'CBS']",Saturday
+2026-03-21,20:00,MCBB,"Mary Washington,Trinity (CT)","['ESPN Select', 'ESPN Unlimited']",Saturday
+2026-03-21,20:45,MCBB,"Vanderbilt,Nebraska",['TNT'],Saturday
+2026-03-21,21:00,MCBB,"Liberty,Nevada","['ESPN Select', 'ESPN Unlimited']",Saturday
+2026-03-21,21:45,MCBB,"High Point,Arkansas",['TBS'],Saturday
+2026-03-21,11:30,WCBB,"Howard,Ohio State","['Fubo Sports', 'ESPN Unlimited', 'ESPN2']",Saturday
+2026-03-21,12:00,WCBB,"Vermont,Louisville","['Fubo Sports', 'ESPN Unlimited', 'ESPN']",Saturday
+2026-03-21,14:00,WCBB,"Fairfield,Notre Dame","['Fubo Sports', 'ESPN Unlimited', 'ESPN']",Saturday
+2026-03-21,14:00,WCBB,"Norfolk State,Loyola Chicago","['ESPN Select', 'ESPN Unlimited']",Saturday
+2026-03-21,14:30,WCBB,"Rhode Island,Alabama",['ESPNews'],Saturday
+2026-03-21,14:30,WCBB,"James Madison,Kentucky","['ESPN Unlimited', 'ESPN U']",Saturday
+2026-03-21,14:30,WCBB,"Unknown Away,ACC Championships","['ESPN Unlimited', 'ACC Network']",Saturday
+2026-03-21,15:00,WCBB,"UTSA,UConn","['ESPN Unlimited', 'ABC']",Saturday
+2026-03-21,15:30,WCBB,"Southern Cal,Clemson","['Fubo Sports', 'ESPN Unlimited', 'ESPN2']",Saturday
+2026-03-21,16:00,WCBB,"Fairleigh Dickinson,Iowa","['Fubo Sports', 'ESPN Unlimited', 'ESPN']",Saturday
+2026-03-21,17:00,WCBB,"Miami (OH),West Virginia","['ESPN Unlimited', 'ESPN U']",Saturday
+2026-03-21,17:30,WCBB,"Syracuse,Iowa State","['Fubo Sports', 'ESPN Unlimited', 'ESPN2']",Saturday
+2026-03-21,19:00,WCBB,"High Point,Vanderbilt",['ESPNews'],Saturday
+2026-03-21,19:00,WCBB,"Unknown Away,ACC Championships","['ESPN Unlimited', 'ACC Network']",Saturday
+2026-03-21,19:30,WCBB,"Princeton,Oklahoma State","['Fubo Sports', 'ESPN Unlimited', 'ESPN2']",Saturday
+2026-03-21,21:30,WCBB,"Colorado,Illinois","['Fubo Sports', 'ESPN Unlimited', 'ESPN2']",Saturday
+2026-03-21,22:00,WCBB,"California Baptist,UCLA","['Fubo Sports', 'ESPN Unlimited', 'ESPN']",Saturday

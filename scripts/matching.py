@@ -96,6 +96,7 @@ def main():
                 "Venue_Feature": venue_feature
             }
 
+            game_venue_mapping['DisplayServices'] = game_venue_mapping['Services']
             game_venue_mapping['Services'] = [
                 "Cable" if service.strip() in cable_channels else service
                 for service in game_venue_mapping['Services']
@@ -143,6 +144,7 @@ def main():
     assigned_venues_list = []
     todays_games_list = []
     game_times_list = []
+    game_channels_list = []
 
     for index, row in users.iterrows():
         user_mcbb = [t.strip() for t in str(row['MCBB']).split(';')] if pd.notna(row['MCBB']) else []
@@ -152,6 +154,7 @@ def main():
         user_venues = []
         user_games = []
         user_times = []
+        user_channels = []
         seen_games = set() 
         
         for _, game_row in final_mappings_df.iterrows():
@@ -172,24 +175,28 @@ def main():
                 is_match = True
                 
             if is_match:
-                if game_matchup not in seen_games: 
+                if game_matchup not in seen_games:
                     seen_games.add(game_matchup)
                     user_games.append(f"[{sport}] {game_matchup}")
                     user_times.append(game_row['Time'])
                     user_venues.append(venue)
+                    user_channels.append(", ".join(game_row['DisplayServices']))
         
         if user_games:
             assigned_venues_list.append("; ".join(user_venues))
             todays_games_list.append("; ".join(user_games))
             game_times_list.append("; ".join(user_times))
+            game_channels_list.append("; ".join(user_channels))
         else:
             assigned_venues_list.append(np.nan)
             todays_games_list.append(np.nan)
             game_times_list.append(np.nan)
+            game_channels_list.append(np.nan)
 
     users['assigned_venues'] = assigned_venues_list
     users['todays_games'] = todays_games_list
     users['game_times'] = game_times_list
+    users['game_channels'] = game_channels_list
 
     # drop rows that don't have any game assignments for today
     users = users.dropna(subset=['todays_games']).reset_index(drop=True)

@@ -71,7 +71,7 @@ def generate_game_preview(league, team_a, team_b):
                 temperature=0.7 # Slight creativity, but grounded in the search facts
             )
         )
-        
+
         hook = ''
         bullets = []
         in_bullets = False
@@ -116,6 +116,7 @@ def process_csv_and_send_emails(csv_path):
         venues = [v.strip() for v in str(row['assigned_venues']).split(';')]
         games_raw = [g.strip() for g in str(row['todays_games']).split(';')]
         times = [t.strip() for t in str(row['game_times']).split(';')]
+        channels = [c.strip() for c in str(row['game_channels']).split(';')] if 'game_channels' in row and pd.notna(row['game_channels']) else []
         
         user_games = []
         
@@ -124,6 +125,7 @@ def process_csv_and_send_emails(csv_path):
             game_str = games_raw[i]
             # Safety checks in case of malformed data
             venue = venues[i] if i < len(venues) else "A local favorite"
+            channel = channels[i] if i < len(channels) else ""
             
             raw_game_time = times[i] if i < len(times) else "Check local listings"
 
@@ -157,10 +159,12 @@ def process_csv_and_send_emails(csv_path):
             
             # Build the game dictionary for the template
             user_games.append({
+                "league": league,
                 "team_a": team_a,
                 "team_b": team_b,
                 "time": game_time,
                 "venue": venue,
+                "channel": channel,
                 "preview": preview_cache[game_key]
             })
             
