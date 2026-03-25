@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**ThirdSpace Beta** — A community platform that matches sports fans with local Detroit-area venues to watch games together. The system scrapes live sports schedules, cleans user survey data, matches fans to venues, and sends personalized emails with AI-generated game previews.
+**ThirdSpace Beta** — A community platform that matches sports fans with local Ann Arbor venues to watch games together. The system scrapes live sports schedules, cleans user survey data, matches fans to venues, and sends personalized emails with AI-generated game previews.
 
 ## Running the Pipeline
 
